@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Arijit Singh Live | The Melodies Tour",
+      "description": "Experience Arijit Singh's soulful melodies live in concert!",
+      "price": 2999.99,
+      "totalTickets": 100,
+      "location": "Jio World Convention Centre, Mumbai", 
+      "eventDate": 1723845600000,
+      "userId": "user_2bFMHkGxZPWVVyJ5QEJQxfsCkxB"
+    },
+    {
+      "name": "Diljit Dosanjh | Born to Shine Tour",
+      "description": "Witness Diljit Dosanjh's electrifying Punjabi beats live!",
+      "price": 3999.99,
+      "totalTickets": 150,
+      "location": "Indira Gandhi Indoor Stadium, Delhi",
+      "eventDate": 1726012800000,
+      "userId": "user_2dOPKmMyZRXXazL7SGLSzhsEmzD"
+    },
+    {
+      "name": "A.R. Rahman | The Maestro's Symphony",
+      "description": "Don't miss A.R. Rahman's magical musical journey live!",
+      "price": 3499.99,
+      "totalTickets": 200,
+      "location": "Chowdiah Memorial Hall, Bengaluru",
+      "eventDate": 1724985600000,
+      "userId": "user_2gPVNqOyYTWWdzO0VJOVcktHpzG"
+    },
+    {
+      "name": "Badshah | The Party Anthem Concert",
+      "description": "Join Badshah for an unforgettable night of party anthems!",
+      "price": 1999.99,
+      "totalTickets": 300,
+      "location": "YMCA Grounds, Chennai",
+      "eventDate": 1729382400000,
+      "userId": "user_2eRTLnPxYQWWbzM8THMTaisFnzE"
+    },
+    {
+      "name": "Neha Kakkar Live | The Bollywood Night",
+      "description": "Dance to Neha Kakkar's chart-topping Bollywood hits!",
+      "price": 2499.99,
+      "totalTickets": 250,
+      "location": "Shilpakala Vedika, Hyderabad",
+      "eventDate": 1728172800000,
+      "userId": "user_2dOPKmMyZRXXazL7SGLSzhsEmzD"
+    },
+    {
+      "name": "Shreya Ghoshal | Soulful Evenings",
+      "description": "An enchanting evening with Shreya Ghoshal's golden voice",
+      "price": 2999.99,
+      "totalTickets": 150,
+      "location": "Science City Auditorium, Kolkata",
+      "eventDate": 1727222400000,
+      "userId": "user_2iRXPsQAaVYYfAQ2XLQXemvJrzI"
+    }
+  ]
+  
