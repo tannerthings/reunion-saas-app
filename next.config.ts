@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "dependable-ram-176.convex.cloud",
       },
+      {
+        protocol: "https",
+        hostname: "dependable-civet-109.convex.cloud",
+      }
     ],
   }
 };
