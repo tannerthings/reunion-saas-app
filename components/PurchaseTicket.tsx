@@ -1,6 +1,6 @@
 "use client";
 
-//import { createStripeCheckoutSession } from "@/app/actions/createStripeCheckoutSession";
+import { createStripeCheckoutSession } from "@/app/actions/createStripeCheckoutSession";
 import { Id } from "@/convex/_generated/dataModel";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -51,24 +51,24 @@ export default function PurchaseTicket({ eventId }: { eventId: Id<"events"> }) {
     return () => clearInterval(interval);
   }, [offerExpiresAt, isExpired]);
 
-  const handlePurchase = async () => {}
-  //   if (!user) return;
+  const handlePurchase = async () => {
+    if (!user) return;
 
-  //   try {
-  //     setIsLoading(true);
-  //     const { sessionUrl } = await createStripeCheckoutSession({
-  //       eventId,
-  //     });
+    try {
+      setIsLoading(true);
+      const { sessionUrl } = await createStripeCheckoutSession({
+        eventId,
+      });
 
-  //     if (sessionUrl) {
-  //       router.push(sessionUrl);
-  //     }
-  //   } catch (error) {
-  //     console.error("Error creating checkout session:", error);
-  //   } finally {
-  //     setIsLoading(false);
-  //   }
-  // };
+      if (sessionUrl) {
+        router.push(sessionUrl);
+      }
+    } catch (error) {
+      console.error("Error creating checkout session:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   if (!user || !queuePosition || queuePosition.status !== "offered") {
     return null;
